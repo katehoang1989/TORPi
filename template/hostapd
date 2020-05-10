@@ -1,4 +1,5 @@
-interface=wlan0
+interface=wlp7s0b1
+bridge=vmbr1
 driver=nl80211
 ssid=${ssid}
 hw_mode=g
