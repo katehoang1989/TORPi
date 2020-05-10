@@ -27,6 +27,6 @@ require dhcp_server_identifier
 # Generate Stable Private IPv6 Addresses instead of hardware based ones
 slaac private
 
-interface wlan0
-        static ip_address=192.168.4.1/24
+interface wlp7s0b1
+        static ip_address=192.168.11.1/24
         nohook wpa_supplicant
